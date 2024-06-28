@@ -1,0 +1,4 @@
+1. SELECT AVG(tempo) AS average_tempo, AVG(energy) AS average_energy
+FROM songs;
+
+2. Creating and checking the audio aura can give us better recomendations from the users where they could tune in to the app more.

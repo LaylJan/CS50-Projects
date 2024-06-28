@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;
+    background-color: #f8f9fa; /* Set a background color for better visibility */
+    padding: 10px; /* Optional: Add some padding for spacing */
+}
+.navbar + .tab-content {
+    margin-top: 20px;
+}
+
+ul {
+    list-style: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding */
+}
+
+li {
+    margin: 8px 0; /* Add some margin between list items */
+}
+#js-tab-pane{
+    text-align: center;
+}
+
+iframe {
+    width: 100%;
+    height: 100vh;
+    border: none;
+  }
+
+/* For JS */
+
+button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
